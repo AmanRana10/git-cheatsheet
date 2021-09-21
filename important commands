@@ -1,0 +1,5 @@
+$ git branch NEW_BRANCH_NAME
+-- to create a new branch
+
+$ git checkout -b NEW_BRANCH_NAME
+-- to create a new branch
