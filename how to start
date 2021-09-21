@@ -14,3 +14,13 @@ $ git init
 use vscode to open that folder and make some changes in it.
 for eg:we made index.html
 */
+
+$ git status
+-- it shows the branch and untracked files in our folder
+
+$ git add . or git add FILE_NAME
+-- to start tracking all the changes
+
+$ git commit -m "message about commit"
+-- to commit our changes
+
