@@ -3,3 +3,12 @@ $ git branch NEW_BRANCH_NAME
 
 $ git checkout -b NEW_BRANCH_NAME
 -- to create a new branch
+
+$ git merge BRANCH
+-- to merge our current branch with new branch
+
+$ touch NEW_FILE
+-- to create a new file
+
+$ cd..
+-- to come out of our current folder
