@@ -1,0 +1,12 @@
+$ git clone REPO_URL
+-- to clone someones repo
+
+$ git config global --edit
+-- to edit
+
+$ vim file_name
+-- to open that file
+
+$ cat fie_name
+-- to show the changes
+
