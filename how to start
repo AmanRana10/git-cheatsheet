@@ -28,7 +28,7 @@ $ git log
 -- to see the history of commits
 
 $ git checkout HEX_CODE
--- to reverse a change
+-- to reverse a change/ to change our current branch
 
 $ git branch
 -- shows the current branch
