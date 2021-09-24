@@ -12,3 +12,9 @@ $ touch NEW_FILE
 
 $ cd..
 -- to come out of our current folder
+
+$ vim file_name
+-- to open that file
+
+$ cat fie_name
+-- to show the changes
