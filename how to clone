@@ -6,9 +6,48 @@ $ git clone REPO_URL
 $ git config global --edit
 -- to edit
 
-$ vim file_name
--- to open that file
+$ git config --global user.name "YOUR_NAME"
+$ git config --global user.email "YOUR_EMAIL"
 
-$ cat fie_name
--- to show the changes
+$ mkdir FOLDERNAME
+--it is the new folder in which we are making our project.
+
+$ cd FOLDERNAME/
+--to come into the folder which we created.
+
+$ git init -b main
+--to initialise a empty git repository.
+
+/*
+use vscode to open that folder and make some changes in it.
+for eg:we made index.html
+*/
+
+$ git status
+-- it shows the branch and untracked files in our folder
+
+$ git add . or git add FILE_NAME
+-- to start tracking all the changes
+
+$ git commit -m "message about commit"
+-- to commit our changes
+
+$ git log
+-- to see the history of commits
+
+$ git checkout HEX_CODE
+-- to reverse a change/ to change our current branch
+
+$ git branch
+-- shows the current branch
+
+$ git remote add origin  <REMOTE_URL> 
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+$ git push origin main
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
 
