@@ -1,0 +1,2 @@
+==> After uploading a project on github , we don't need to repeat the entire process of entering our username,email and git init as it is already tracking our project so we just need
+add,commit and push them to our repository.
