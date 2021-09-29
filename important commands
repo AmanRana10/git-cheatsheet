@@ -18,3 +18,9 @@ $ vim file_name
 
 $ cat fie_name
 -- to show the changes
+
+$ git log
+-- to see the history of commits
+
+$ git checkout HEX_CODE
+-- to reverse a change/ to change our current branch
