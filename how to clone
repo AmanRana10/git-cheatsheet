@@ -16,7 +16,7 @@ $ cd FOLDERNAME/
 --to come into the folder which we created.
 
 $ git init -b main
---to initialise a empty git repository.
+--to initialise a empty git repository. **to create empty repository if repository already created than it does nothing.
 
 /*
 use vscode to open that folder and make some changes in it.
@@ -47,7 +47,7 @@ $ git remote -v
 # Verifies the new remote URL
 
 $ git push origin main
-# Pushes the changes in your local repository up to the remote repository you specified as the origin
+# Pushes the changes in your local repository you specified as the origin
 
 
 
