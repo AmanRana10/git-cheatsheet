@@ -41,13 +41,9 @@ $ git checkout HEX_CODE
 $ git branch
 -- shows the current branch
 
-$ git remote add origin  <REMOTE_URL> 
-# Sets the new remote
-$ git remote -v
-# Verifies the new remote URL
 
-$ git push origin main
-# Pushes the changes in your local repository you specified as the origin
+$ git push
+# Pushes the changes in your local repository 
 
 
 
