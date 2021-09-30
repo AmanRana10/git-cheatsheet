@@ -1,4 +1,8 @@
-==> After uploading a project on github , we don't need to repeat the entire process of entering our username,email and git init as it is already tracking our project so we just need
-add,commit and push them to our repository.
+==> After uploading a project on github , we don't need to repeat the entire process of entering our username,email and git init as it is already tracking our project so we just 
+need add,commit and push them to our repository.
 
 ==> After pushing our changes to our local repository,we have to create a pull requeust to send it to the remote repo.
+
+==> git remote add origin URL is used to connect our local project to our remote reopsitory.Basically it tells our computer which repository to push our changes in.
+(It is used for new projects which do not have a remote repo on github)
+**it creates a var type origin which we refer to as origin afterwards. 
